@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(181,247,196);
+  background: linear-gradient(153deg, rgba(181,247,196,1) 0%, rgba(42,137,135,1) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.hit_box {
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  background: red;
+}
